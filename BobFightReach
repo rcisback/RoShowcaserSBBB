@@ -3,7 +3,7 @@ local plr = game.Players.LocalPlayer
 function supaSiza(v)
    if v:IsA("Tool") then
        v.Hand.Transparency = 0.75
-       v.Hand.Size = Vector3.new(200, 200, 200)
+       v.Hand.Size = Vector3.new(30, 30, 30)
    end
 end
 
